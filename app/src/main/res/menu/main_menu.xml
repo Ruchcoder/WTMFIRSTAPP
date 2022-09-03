@@ -7,12 +7,22 @@
         android:icon="@drawable/ic_baseline_search_24"
         app:showAsAction="always"
         android:title="Search"
-        app:actionViewClass="android.widget.SearchView" />
+        app:actionViewClass="android.widget.SearchView"/> //enables us to provide a search application on our app
+
+    <item
+        android:id="@+id/share_icon"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="always"
+        android:title="Share"/>
+
+
+    <item
+        android:id="@+id/secret_group"
+        android:title="Secret group"/>
 
 
     <item
         android:id="@+id/new_group"
-        app:showAsAction=""
         android:title="New group" />
     <item
         android:id="@+id/New_broadcast"

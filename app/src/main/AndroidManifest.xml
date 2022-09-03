@@ -5,18 +5,18 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="WharChat"
+        android:label="SneakChat"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WTMFIRSTAPP">
-
-        //new name for the activity for name label and making parentActivity name to be .mainActivity for the back button
+        <activity
+            android:name=".BroadcastActivity"
+            android:exported="false" />
         <activity
             android:name=".NewGroupActivity"
-            android:parentActivityName=".MainActivity"
             android:exported="false"
-            android:label="New Group"/>
-
+            android:label="New Group"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

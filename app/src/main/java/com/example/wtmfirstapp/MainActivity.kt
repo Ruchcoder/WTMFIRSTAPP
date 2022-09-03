@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Search Icon was clicked", Toast.LENGTH_LONG).show()
                 return true
             }
+            R.id.secret_group -> {
+                Toast.makeText(this, "A new secret group has been created", Toast.LENGTH_LONG).show()
+                return true
+            }
 
             R.id.Linked_devices -> {
                 Toast.makeText(this, "Link your device now", Toast.LENGTH_LONG).show()
@@ -39,6 +43,8 @@ class MainActivity : AppCompatActivity() {
 
             }
             R.id.New_broadcast -> {
+
+                goToBroadcastActivity()
                 Toast.makeText(this, "New broadcast list created", Toast.LENGTH_LONG).show()
                 return true
             }
@@ -66,6 +72,13 @@ class MainActivity : AppCompatActivity() {
         var i = Intent(this, NewGroupActivity::class.java)
         startActivity(i) // Navigate to the new group activity page
     }
+
+    private fun goToBroadcastActivity(){
+        //this activity to the activity you want.
+        var i = Intent(this, BroadcastActivity::class.java)
+        startActivity(i) // Navigate to the new group activity page
+    }
+
 
 }
 
