@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_main.xml" value="0.3984375" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_new_group.xml" value="0.2" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/menu/main_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
