@@ -75,8 +75,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun goToBroadcastActivity(){
         //this activity to the activity you want.
-        var i = Intent(this, BroadcastActivity::class.java)
-        startActivity(i) // Navigate to the new group activity page
+        var j = Intent(this, BroadcastActivity::class.java)
+        startActivity(j) // Navigate to the new group activity page
     }
 
 

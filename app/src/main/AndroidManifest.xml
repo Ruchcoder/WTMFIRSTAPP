@@ -11,7 +11,9 @@
         android:theme="@style/Theme.WTMFIRSTAPP">
         <activity
             android:name=".BroadcastActivity"
-            android:exported="false" />
+            android:label="New Broadcast"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".NewGroupActivity"
             android:exported="false"
