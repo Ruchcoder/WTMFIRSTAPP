@@ -16,7 +16,6 @@ class MainPageAdapter(fm:FragmentManager, lf:Lifecycle):FragmentStateAdapter(fm,
         return 4 //numbers of fragment on the mainactivity page
 
     }
-
     override fun createFragment(position: Int): Fragment {
         return  when(position){
             0-> CameraFragment()
