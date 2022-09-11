@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.wtmfirstapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -10,10 +13,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WTMFIRSTAPP">
         <activity
-            android:name=".BroadcastActivity"
-            android:label="New Broadcast"
+            android:name=".ListOfChats"
+            android:exported="false" />
+        <activity
+            android:name=".ListOfChat"
+            android:exported="false" />
+        <activity
+            android:name=".ListsOfChatAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BroadcastActivity"
+            android:exported="false"
+            android:label="New Broadcast"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".NewGroupActivity"
             android:exported="false"

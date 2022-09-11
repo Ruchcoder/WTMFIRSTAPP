@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SNEAKCHAT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //You can change the name of your App here in PLACE of the SNEAKCHAT
 </resources>

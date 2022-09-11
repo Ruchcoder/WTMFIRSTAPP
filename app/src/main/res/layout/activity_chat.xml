@@ -1,9 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChatActivity">
+    android:background="@color/grey"
+    tools:context=".ChatActivity"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id ="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@color/white"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:weightSum="10">
+
+
+
+<!--        this will show the messages sent and received-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/message_section"
+            android:layout_width="match_parent"
+            android:layout_height="516dp"
+            android:layout_weight="10" />
+
+
+
+<!--        this will enable us send messages which is the sending message section layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom"
+            android:padding="5dp">
+">
+<!--            this will enable us send messages-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="95"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="95"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <ImageButton
+                        android:id="@+id/show_emojis"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_tag_faces_24"/>
+                    <EditText
+                        android:id="@+id/message_sending"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="send message"
+                        android:layout_weight="10"/>
+<!--                        //android:background="null"/>-->
+                    <!--             this will show where we can type messages-->
+                    <ImageButton
+                        android:id="@+id/attach_file"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_attach_file_24"/>
+
+                    <ImageButton
+                        android:id="@+id/camera"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_camera_enhance_24"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+<!--                        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="10dp"-->
+<!--                            android:layout_weight="5"-->
+<!--                            android:backgroundTint="@color/green"-->
+<!--                            app:icon="@drawable/ic_baseline_record_voice_over_24"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            >-->
+<!--                            -->
+<!--                        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>-->
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                android:backgroundTint="@color/darkgreen"
+                android:src="@drawable/ic_baseline_record_voice_over_24"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
