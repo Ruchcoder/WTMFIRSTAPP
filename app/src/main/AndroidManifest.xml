@@ -4,6 +4,7 @@
     package="com.example.wtmfirstapp">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.flash"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WTMFIRSTAPP">
+        <activity
+            android:name=".ListOfMessages"
+            android:exported="false"
+            android:label="@string/title_activity_list_of_messages"
+            android:theme="@style/Theme.WTMFIRSTAPP.NoActionBar" />
         <activity
             android:name=".ListOfChats"
             android:exported="false" />

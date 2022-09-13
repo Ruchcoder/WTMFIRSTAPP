@@ -15,10 +15,10 @@ import com.example.wtmfirstapp.SampleData
 // the recyclerview(list) done in the New group layout(drawing) in the listoffriends class
 class ListOfFriendsAdapter(val context:Context):RecyclerView.Adapter<ListOfFriendsAdapter.LFViewHolder>(){
     private val sampleData = SampleData() // sampledata object created for a sample of list of friends
-    private val ListOfFriends = sampleData.LIST_OF_FRIENDS // accesing the LIST_OF_FRIENDS in the  SampleData object
+    private val ListOfFriends = sampleData.LIST_OF_FRIENDS // accessing the LIST_OF_FRIENDS in the  SampleData object
                                                            //superior abstract class of recyclerView
 
-    // connecting the itemview with the username and status layout interface
+    // connecting the itemview with the username and status layout interface and initiate the class User
     class LFViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         val userName:TextView =itemView.findViewById(R.id.userName)// This connects TextView with id userName in the interface in the list of friends layout
         val status:TextView =itemView.findViewById(R.id.status) // This connects TextView with id status interface layout in the list of friends layout
@@ -32,7 +32,7 @@ class ListOfFriendsAdapter(val context:Context):RecyclerView.Adapter<ListOfFrien
 
     }
 
-    override fun onBindViewHolder(holder: LFViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: LFViewHolder, position: Int){
 
         //this loops through the listoffriends names in the sampleData created and its can be accessed as inputting the name of the list and the index(position)
         // ,the holder is reference to the class created which are userName and status in USER class

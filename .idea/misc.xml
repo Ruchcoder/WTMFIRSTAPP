@@ -5,20 +5,25 @@
       <map>
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1835" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.227" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.223" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_baseline_camera_enhance_24.xml" value="0.1" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1835" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_baseline_tag_faces_24.xml" value="0.2095" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.214" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_broadcast.xml" value="0.205859375" />
-        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_chat.xml" value="0.290234375" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_chat.xml" value="0.2" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_list_of_chat.xml" value="0.19722222222222222" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_list_of_chats.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_list_of_messages.xml" value="0.25" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/activity_new_group.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/content_list_of_messages.xml" value="0.140625" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_call.xml" value="0.11875" />
-        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_camera.xml" value="0.11041666666666666" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_camera.xml" value="0.21" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_chat.xml" value="0.11875" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_first.xml" value="0.278515625" />
+        <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_second.xml" value="0.278515625" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/fragment_status.xml" value="0.25" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/layout/list_of_friends_layout.xml" value="0.5" />
         <entry key="..\:/Users/Obejo.com/AndroidStudioProjects/WTMFIRSTAPP/app/src/main/res/menu/main_menu.xml" value="0.2" />

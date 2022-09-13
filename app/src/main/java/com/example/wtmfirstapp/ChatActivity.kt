@@ -6,7 +6,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.RecyclerView
 
 class ChatActivity : AppCompatActivity() {
-    private lateinit var toolbar1:Toolbar
+    private lateinit var toolbar:Toolbar
     private lateinit var messageRV: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,8 +15,8 @@ class ChatActivity : AppCompatActivity() {
 
         messageRV = findViewById(R.id.message_section)
 
-        toolbar1= findViewById(R.id.toolbar1)
-        setSupportActionBar(toolbar1)
+        toolbar= findViewById(R.id.toolbar)//connects the toolbar to the ChatActivity
+        setSupportActionBar(toolbar)
         supportActionBar?.title = "Username"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

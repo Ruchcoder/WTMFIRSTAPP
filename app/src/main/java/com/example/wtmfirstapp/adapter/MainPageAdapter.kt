@@ -10,7 +10,7 @@ import com.example.wtmfirstapp.fragment.ChatFragment
 import com.example.wtmfirstapp.fragment.StatusFragment
 
 //this syn the tab and viewpager together, activity is the parent of FragmentManger,
-// fragment manager manage fragment that are showing in activity appropiately accoeding to set of phone.
+// fragment manager manage fragment that are showing in activity appropriately according to set of phone.
 class MainPageAdapter(fm:FragmentManager, lf:Lifecycle):FragmentStateAdapter(fm,lf) {
     override fun getItemCount(): Int {
         return 4 //numbers of fragment on the mainactivity page

@@ -5,14 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.wtmfirstapp.adapter.ListOfFriendsAdapter
 import com.example.wtmfirstapp.R
+import com.example.wtmfirstapp.adapter.ListOfMessagesAdapter
 
 
 class ChatFragment : Fragment() {
-    // TODO: Rename and change types of parameters
+
     private lateinit var chatRecyclerView: RecyclerView
 
 
@@ -34,8 +36,9 @@ class ChatFragment : Fragment() {
         //connects the ListOfFriendsAdapter in place of ListOfChatAdapter now to the chatfragment
         //(requireContext()) is used in place of (this) because the fragment isnt on an activity because
         //context is a superclass of an activity,
-        chatRecyclerView.adapter = ListOfFriendsAdapter(requireContext())
+        chatRecyclerView.adapter = ListOfMessagesAdapter(requireContext())
         chatRecyclerView.layoutManager = LinearLayoutManager(requireContext())
+        //chatRecyclerView.addItemDecoration(DividerItemDecoration(requireContext(), RecyclerView.VERTICAL))
 
     }
 

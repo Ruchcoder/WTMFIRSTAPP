@@ -19,8 +19,8 @@ class NewGroupActivity : AppCompatActivity() {
 
 
         toolbar = findViewById(R.id.toolbar)
-        //setSupportActionBar(toolbar)
-        //supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true) //its enable a back button action
 
         //Set up recyclerview and show it on screen
         recyclerView = findViewById(R.id.list_of_friends)

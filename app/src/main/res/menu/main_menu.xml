@@ -7,8 +7,7 @@
         android:icon="@drawable/ic_baseline_search_24"
         app:showAsAction="always"
         android:title="Search"
-        app:actionViewClass="android.widget.SearchView"/> //enables us to provide a search application on our app
-
+        app:actionViewClass="android.widget.SearchView"/>
     <item
         android:id="@+id/share_icon"
         android:icon="@drawable/ic_baseline_share_24"
@@ -36,4 +35,5 @@
     <item
         android:id="@+id/Settings"
         android:title="Settings" />
+
 </menu>

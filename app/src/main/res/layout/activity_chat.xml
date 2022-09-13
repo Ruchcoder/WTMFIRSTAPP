@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <androidx.appcompat.widget.Toolbar
-            android:id ="@+id/toolbar1"
+            android:id ="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:titleTextColor="@color/white"/>
@@ -36,8 +36,6 @@
             android:layout_height="516dp"
             android:layout_weight="10" />
 
-
-
 <!--        this will enable us send messages which is the sending message section layout-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,7 +46,7 @@
             android:gravity="center_vertical"
             android:layout_gravity="bottom"
             android:padding="5dp">
-">
+
 <!--            this will enable us send messages-->
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
@@ -69,14 +67,16 @@
                         android:layout_height="30dp"
                         android:backgroundTint="@color/white"
                         android:src="@drawable/ic_baseline_tag_faces_24"/>
+
+                    <!--             this will show where we can type messages-->
                     <EditText
                         android:id="@+id/message_sending"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:hint="send message"
-                        android:layout_weight="10"/>
-<!--                        //android:background="null"/>-->
-                    <!--             this will show where we can type messages-->
+                        android:layout_width="243dp"
+                        android:layout_height="21dp"
+                        android:layout_weight="10"
+                        android:background="@color/white"
+                        android:hint="send message" />
+
                     <ImageButton
                         android:id="@+id/attach_file"
                         android:layout_width="30dp"
@@ -109,8 +109,8 @@
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_weight="5"
-                android:backgroundTint="@color/darkgreen"
-                android:src="@drawable/ic_baseline_record_voice_over_24"
+                android:backgroundTint="@color/green"
+                android:src="@drawable/ic_baseline_send_24"
                 android:layout_marginLeft="5dp"
                 />
 
